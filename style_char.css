@@ -1,0 +1,84 @@
+h1 {
+    font-size  : clamp(1px, 5vw, 35px);
+    text-align : center;
+    line-height: 1.2;
+    word-break : break-word;
+}
+
+/* テーブル */
+table {
+    margin: auto;
+}
+
+th,
+td {
+    padding       : 5px;
+    text-align    : left;
+    letter-spacing: 1.5px;
+}
+
+th {
+    font-size: clamp(1px, 2vw, 13px);
+    opacity  : 0.8;
+}
+
+td {
+    font-size  : clamp(1px, 3vw, 17px);
+    font-weight: bold;
+}
+
+/* キャラ詳細ページ画像ギャラリー */
+.gallery {
+    display              : flex;
+    flex-wrap            : wrap;
+    gap                  : 12px;
+    margin               : 0 auto;
+    width                : 100%;
+    height               : auto;
+    justify-content      : center;
+}
+
+.gallery img {
+    height: clamp(100px, 27vw, 290px);
+    width: auto;
+    border-radius: 12px;
+    transition   : transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.gallery img:hover {
+    transform : scale(1.1);
+}
+
+/* ライトボックス */
+#lightbox {
+    position       : fixed;
+    inset          : 0;
+    background     : rgba(0, 0, 0, 0.50);
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    opacity        : 0;
+    pointer-events : none;
+    transition     : opacity 0.2s ease;
+     z-index        : 9999;
+}
+
+#lightbox.active {
+    opacity       : 1;
+    pointer-events: auto;
+}
+
+#lightbox img {
+    max-width : 85%;
+    max-height: 85%;
+
+}
+
+/* 戻るボタン */
+.back {
+    font-size      : clamp(1px, 4vw, 16px);
+    display        : inline-block;
+    color          : #9ecbff;
+    text-decoration: none;
+    margin         : 30px;
+}

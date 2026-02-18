@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0 auto;
+    height: 100%;
+}
+
+body {
+    margin         : 0;
+    min-height     : 100vh;
+    font-family    : system-ui, -apple-system, sans-serif;
+    background     : #333030;
+    color          : #fff;
+    align-items    : center;
+    justify-content: center;
+    flex-direction : column;
+    display        : flex;
+    gap            : 24px;
+    overflow       : auto;
+    justify-content: flex-start;
+}
+
+body>* {
+    flex: 0 0 auto;
+}
+
+main {
+    margin         : 0;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    gap            : 24px;
+    width          : 100%;
+    min-height     : auto;
+    justify-content: center;
+}
+
+.grid {
+    display        : flex;
+    flex-wrap      : wrap;
+    gap            : 12px;
+    margin         : 0 auto;
+    justify-content: center;
+}
+
+.grid img {
+    max-width    : clamp(100px, 20vw, 150px);
+    height       : auto;
+}
+
+.card {
+    display              : flex;
+    flex-wrap            : wrap;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap                  : 12px;
+    border-radius        : 16px;
+    overflow             : hidden;
+    background           : #1a1d24;
+    transition           : transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+    transform : translateY(0px) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.site-header {
+    margin-top: 20px;
+    font-size : clamp(1px, 5vw, 18px);
+}
+
+.site-footer {
+    opacity  : 0.6;
+    font-size: clamp(1px, 5vw, 12px);
+}

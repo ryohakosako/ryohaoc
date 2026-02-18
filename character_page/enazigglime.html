@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style_char.css">
+  <title>エナジー注射する黒ナースちゃん</title>
+
+</head>
+
+<body>
+  <main>
+    <div id="header"></div>
+
+    <h1>エナジー注射する黒ナースちゃん</h1>
+
+    <table border="1">
+      <tr>
+        <th>名前</th>
+        <th>身長</th>
+        <th>ジャンル</th>
+        <th>絵文字</th>
+      </tr>
+      <tr>
+        <td>エナ・ジグライム<br>
+          Ena Zigglime</td>
+        <td>163cm</td>
+        <td>ナース<br>
+          ギザ歯</td>
+        <td>💉🔋</td>
+      </tr>
+      <tr>
+        <td colspan="4">・見境なく相手に謎のエナジーを注射する。</td>
+      </tr>
+    </table>
+
+    <div class="gallery">
+      <img src="../ryohaoc_image/05enazigglime/240514.png" alt="エナ・ジグライム" loading="lazy">
+      <img src="../ryohaoc_image/05enazigglime/211210_2.png" alt="エナ・ジグライム" loading="lazy">
+    </div>
+
+    <!-- ライトボックス -->
+    <div id="lightbox">
+      <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <a href="../index.html" class="back">◀ 戻る</a>
+
+    <div id="footer"></div>
+  </main>
+
+</body>
+
+<script>
+  fetch("../header.html")
+    .then(r => r.text())
+    .then(t => document.getElementById("header").innerHTML = t);
+
+  fetch("../footer.html")
+    .then(r => r.text())
+    .then(t => document.getElementById("footer").innerHTML = t);
+
+  const images = document.querySelectorAll(".gallery img");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  images.forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightbox.classList.add("active");
+    });
+  });
+
+  lightbox.addEventListener("click", () => {
+    lightbox.classList.remove("active");
+  });
+</script>
+
+</html>
