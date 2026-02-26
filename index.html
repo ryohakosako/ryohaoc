@@ -12,7 +12,7 @@
   <main>
     <div id="header"></div>
 
-    <div class="grid">
+    <div class="grid" id="grid">
 
       <a href="character_page/kongoichigo.html" class="card">
         <img src="ryohaoc_image/01kongoichigo/251029_3.png" alt="赤髪くせっ毛ゲーマーJKちゃん" loading="lazy">
@@ -84,6 +84,17 @@
   fetch("footer.html")
     .then(r => r.text())
     .then(t => document.getElementById("footer").innerHTML = t);
+
+  const grid = document.getElementById("grid");
+  const items = Array.from(grid.children);
+
+  // シャッフル（Fisher-Yates）
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
+
+  items.forEach(item => grid.appendChild(item));
 </script>
 
 </html>
