@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style_char.css">
+  <title>赤髪くせっ毛ゲーマーJKちゃん</title>
+
+</head>
+
+<body>
+  <main>
+    <div id="header"></div>
+
+    <h1>長刀おかっぱお面こけしちゃん</h1>
+
+    <table border="1">
+      <tr>
+        <th>名前</th>
+        <th>身長</th>
+        <th>ジャンル</th>
+        <th>絵文字</th>
+      </tr>
+      <tr>
+        <td>万相木花 (よろづらこなは)<br>
+          Yorodura Konaha</td>
+        <td>136cm</td>
+        <td>着物<br>
+          おかっぱ</td>
+        <td>🎭👘</td>
+      </tr>
+      <tr>
+        <td colspan="4">・刀は身長より長い</td>
+      </tr>
+    </table>
+
+    <div class="gallery">
+      <img src="../ryohaoc_image/15yorodurakonaha/240830-7.png" alt="万相木花" loading="lazy">
+      <img src="../ryohaoc_image/15yorodurakonaha/211028_1.png" alt="万相木花" loading="lazy">
+    </div>
+
+    <!-- ライトボックス -->
+    <div id="lightbox">
+      <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <a href="../index.html" class="back">◀ 戻る</a>
+
+    <div id="footer"></div>
+  </main>
+
+</body>
+
+<script>
+  fetch("../header.html")
+    .then(r => r.text())
+    .then(t => document.getElementById("header").innerHTML = t);
+
+  fetch("../footer.html")
+    .then(r => r.text())
+    .then(t => document.getElementById("footer").innerHTML = t);
+
+  const images = document.querySelectorAll(".gallery img");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  images.forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightbox.classList.add("active");
+    });
+  });
+
+  lightbox.addEventListener("click", () => {
+    lightbox.classList.remove("active");
+  });
+</script>
+
+</html>
