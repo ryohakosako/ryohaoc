@@ -43,21 +43,23 @@ main {
 }
 
 .grid img {
-    max-width    : clamp(100px, 20vw, 150px);
-    height       : auto;
+    max-width: clamp(100px, 20vw, 150px);
+    height   : auto;
 }
 
 .card {
-    display              : flex;
-    flex-wrap            : wrap;
+    display                 : flex;
+    flex-wrap               : wrap;
     /**grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));**/
-    gap                  : 12px;
-    border-radius        : 16px;
-    overflow             : hidden;
-    background           : #1a1d24;
-    transition           : transform 0.15s ease, box-shadow 0.15s ease;
-    position      : relative; /* ← 追加 */
-    cursor        : pointer;  /* ← 追加 */
+    gap                     : 12px;
+    border-radius           : 16px;
+    overflow                : hidden;
+    background              : #1a1d24;
+    transition              : transform 0.15s ease, box-shadow 0.15s ease;
+    position                : relative;
+    /* ← 追加 */
+    cursor                  : pointer;
+    /* ← 追加 */
 }
 
 .card:hover {
@@ -66,18 +68,18 @@ main {
 }
 
 .card-overlay {
-    position        : absolute;
-    inset           : 0;
-    background      : rgba(0, 0, 0, 0.5);
-    display         : flex;
-    flex-direction  : column;
-    align-items     : center;
-    justify-content : center;
-    gap             : 5px;
-    padding         : 8px;
-    opacity         : 0;
-    transition      : opacity 0.2s ease;
-    border-radius   : 16px;
+    position       : absolute;
+    inset          : 0;
+    background     : rgba(0, 0, 0, 0.5);
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    gap            : 5px;
+    padding        : 8px;
+    opacity        : 0;
+    transition     : opacity 0.2s ease;
+    border-radius  : 16px;
 }
 
 .card:hover .card-overlay {
@@ -85,16 +87,22 @@ main {
 }
 
 .chara-name {
-    color       : #fff;
-    font-size   : 1rem;
-    font-weight : 700;
-    text-align  : center;
-    text-shadow : 0 1px 4px rgba(0,0,0,0.9);
+    color      : #fff;
+    font-size  : 1rem;
+    font-weight: 700;
+    text-align : center;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
 .site-header {
     margin-top: 20px;
     font-size : clamp(1px, 5vw, 18px);
+}
+
+.site-header a {
+    color          : inherit;
+    text-decoration: none;
+    cursor         : pointer;
 }
 
 .site-footer {
