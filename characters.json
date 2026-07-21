@@ -1,0 +1,17 @@
+[
+    {
+        "name": "いちご",
+        "image": "ryohaoc_image/01kongoichigo/251029_3.png",
+        "link": "character_page/kongoichigo.html"
+    },
+    {
+        "name": "ルオータ",
+        "image": "ryohaoc_image/02ruotajanedesh/230921_2.png",
+        "link": "character_page/ruotajanedesh.html"
+    },
+    {
+        "name": "ミーファ",
+        "image": "ryohaoc_image/03mihua/230216_3.png",
+        "link": "character_page/mihua.html"
+    }
+]
