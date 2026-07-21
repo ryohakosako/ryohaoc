@@ -94,6 +94,31 @@ main {
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
+.card.sortable-drag:hover .card-overlay {
+    opacity: 0;
+}
+
+.sortable-ghost {
+    opacity: 0;
+}
+
+.sortable-ghost .card-overlay{
+    opacity: 0;
+}
+
+.sortable-drag {
+    opacity: 1;
+}
+
+.grid.dragging .card:hover{
+    transform: none;
+    box-shadow:none;
+}
+
+.grid.dragging .card:hover .card-overlay{
+    opacity: 0;
+}
+
 .site-header {
     margin-top: 20px;
     font-size : clamp(1px, 5vw, 18px);

@@ -1,5 +1,7 @@
 const grid = document.getElementById("grid");
 
+let draggedCard = null;
+
 fetch("characters.json")
     .then(response => response.json())
     .then(characters => {
@@ -24,6 +26,13 @@ fetch("characters.json")
             card.appendChild(img);
             card.appendChild(overlay);
             grid.appendChild(card);
+        });
+        new Sortable(grid, {
+            animation: 150,
+            ghostClass: "sortable-ghost",
+            dragClass: "sortable-drag",
+            onStart: () => { grid.classList.add("dragging"); },
+            onEnd: () => { grid.classList.remove("dragging"); }
         });
     });
 
