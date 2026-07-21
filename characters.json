@@ -201,5 +201,12 @@
         "name": "とうか",
         "image": "ryohaoc_image/29odatouka/250523_2.png",
         "link": "character_page/odatouka.html"
+    },
+    {
+        "number": "30",
+        "id": "lilianvalentia",
+        "name": "リンネル",
+        "image": "ryohaoc_image//30lilianvalentia/260710_2.png",
+        "link": "character_page/lilianvalentia.html"
     }
 ]
