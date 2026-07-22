@@ -27,7 +27,8 @@ fetch("characters.json")
             card.appendChild(overlay);
             grid.appendChild(card);
         });
-        if (window.matchMedia("(min-width: 768px)").matches) {
+        const isTouchDevice = "ontouchstart" in window;
+        if (!isTouchDevice) {
             new Sortable(grid, {
                 animation: 150,
                 ghostClass: "sortable-ghost",
