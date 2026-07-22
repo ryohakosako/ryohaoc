@@ -33,6 +33,8 @@ fetch("characters.json")
             dragClass: "sortable-drag",
             delay: 200,
             delayOnTouchOnly: true,
+            forceFallback: true,
+            fallbackOnBody: true,
             touchStartThreshold: 5,
             onStart: () => { grid.classList.add("dragging"); },
             onEnd: () => { grid.classList.remove("dragging"); }
