@@ -27,18 +27,15 @@ fetch("characters.json")
             card.appendChild(overlay);
             grid.appendChild(card);
         });
-        new Sortable(grid, {
-            animation: 150,
-            ghostClass: "sortable-ghost",
-            dragClass: "sortable-drag",
-            delay: 200,
-            delayOnTouchOnly: true,
-            forceFallback: true,
-            fallbackOnBody: true,
-            touchStartThreshold: 5,
-            onStart: () => { grid.classList.add("dragging"); },
-            onEnd: () => { grid.classList.remove("dragging"); }
-        });
+        if (window.matchMedia("(min-width: 768px)").matches) {
+            new Sortable(grid, {
+                animation: 150,
+                ghostClass: "sortable-ghost",
+                dragClass: "sortable-drag",
+                onStart: () => { grid.classList.add("dragging"); },
+                onEnd: () => { grid.classList.remove("dragging"); }
+            });
+        }
     });
 
 fetch("header.html")
