@@ -31,6 +31,9 @@ fetch("characters.json")
             animation: 150,
             ghostClass: "sortable-ghost",
             dragClass: "sortable-drag",
+            delay: 200,
+            delayOnTouchOnly: true,
+            touchStartThreshold: 5,
             onStart: () => { grid.classList.add("dragging"); },
             onEnd: () => { grid.classList.remove("dragging"); }
         });
