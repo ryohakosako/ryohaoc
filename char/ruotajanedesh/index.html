@@ -37,9 +37,9 @@
     </table>
 
     <div class="gallery">
-      <img src="../img/02ruotajanedesh/260728.png" alt="ルオータ・ジェーンデッシュ" loading="lazy">
-      <img src="../img/02ruotajanedesh/230921.png" alt="ルオータ・ジェーンデッシュ" loading="lazy">
-      <img src="../img/02ruotajanedesh/220426.png" alt="ルオータ・ジェーンデッシュ" loading="lazy">
+      <img src="../../../img/02ruotajanedesh/260728.png" alt="ルオータ・ジェーンデッシュ" loading="lazy">
+      <img src="../../../img/02ruotajanedesh/230921.png" alt="ルオータ・ジェーンデッシュ" loading="lazy">
+      <img src="../../../img/02ruotajanedesh/220426.png" alt="ルオータ・ジェーンデッシュ" loading="lazy">
     </div>
 
     <!-- ライトボックス -->
@@ -53,29 +53,6 @@
   </main>
 </body>
 
-<script>
-  fetch("../header.html")
-    .then(r => r.text())
-    .then(t => document.getElementById("header").innerHTML = t);
-
-  fetch("../footer.html")
-    .then(r => r.text())
-    .then(t => document.getElementById("footer").innerHTML = t);
-
-  const images = document.querySelectorAll(".gallery img");
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
-
-  images.forEach(img => {
-    img.addEventListener("click", () => {
-      lightboxImg.src = img.src;
-      lightbox.classList.add("active");
-    });
-  });
-
-  lightbox.addEventListener("click", () => {
-    lightbox.classList.remove("active");
-  });
-</script>
+<script src="../../script.js"></script>
 
 </html>

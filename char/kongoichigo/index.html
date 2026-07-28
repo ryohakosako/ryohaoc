@@ -36,12 +36,12 @@
     </table>
 
     <div class="gallery">
-      <img src="../img/01kongoichigo/260227.png" alt="金剛いちご" loading="lazy"><!-- 三面図 -->
-      <img src="../img/01kongoichigo/251029.png" alt="金剛いちご" loading="lazy">
-      <img src="../img/01kongoichigo/240216.png" alt="金剛いちご" loading="lazy">
-      <img src="../img/01kongoichigo/230822.png" alt="金剛いちご" loading="lazy">
-      <img src="../img/01kongoichigo/230709.png" alt="金剛いちご" loading="lazy">
-      <img src="../img/01kongoichigo/220918.png" alt="金剛いちご" loading="lazy">
+      <img src="../../../img/01kongoichigo/260227.png" alt="金剛いちご" loading="lazy"><!-- 三面図 -->
+      <img src="../../../img/01kongoichigo/251029.png" alt="金剛いちご" loading="lazy">
+      <img src="../../../img/01kongoichigo/240216.png" alt="金剛いちご" loading="lazy">
+      <img src="../../../img/01kongoichigo/230822.png" alt="金剛いちご" loading="lazy">
+      <img src="../../../img/01kongoichigo/230709.png" alt="金剛いちご" loading="lazy">
+      <img src="../../../img/01kongoichigo/220918.png" alt="金剛いちご" loading="lazy">
     </div>
 
     <!-- ライトボックス -->
@@ -56,29 +56,6 @@
 
 </body>
 
-<script>
-  fetch("../header.html")
-    .then(r => r.text())
-    .then(t => document.getElementById("header").innerHTML = t);
-
-  fetch("../footer.html")
-    .then(r => r.text())
-    .then(t => document.getElementById("footer").innerHTML = t);
-
-  const images = document.querySelectorAll(".gallery img");
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
-
-  images.forEach(img => {
-    img.addEventListener("click", () => {
-      lightboxImg.src = img.src;
-      lightbox.classList.add("active");
-    });
-  });
-
-  lightbox.addEventListener("click", () => {
-    lightbox.classList.remove("active");
-  });
-</script>
+<script src="../../script.js"></script>
 
 </html>
