@@ -41,8 +41,21 @@ fetch("characters.json")
 
 fetch("header.html")
     .then(r => r.text())
-    .then(t => document.getElementById("header").innerHTML = t);
+    .then(t => {
+        const el = document.getElementById("header");
+        if (el) el.innerHTML = t;
+    });
 
 fetch("footer.html")
     .then(r => r.text())
-    .then(t => document.getElementById("footer").innerHTML = t);
+    .then(t => {
+        const el = document.getElementById("footer");
+        if (el) el.innerHTML = t;
+    });
+
+fetch("footer_char.html")
+    .then(r => r.text())
+    .then(t => {
+        const el = document.getElementById("footer_char");
+        if (el) el.innerHTML = t;
+    });

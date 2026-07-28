@@ -3,210 +3,210 @@
         "number": "01",
         "id": "kongoichigo",
         "name": "いちご",
-        "image": "ryohaoc_image/01kongoichigo/251029_3.png",
-        "link": "character_page/kongoichigo.html"
+        "image": "img/01kongoichigo/251029_3.png",
+        "link": "char/kongoichigo/index.html"
     },
     {
         "number": "02",
         "id": "ruotajanedesh",
         "name": "ルオータ",
-        "image": "ryohaoc_image/02ruotajanedesh/260728_2.png",
-        "link": "character_page/ruotajanedesh.html"
+        "image": "img/02ruotajanedesh/260728_2.png",
+        "link": "char/ruotajanedesh/index.html"
     },
     {
         "number": "03",
         "id": "mihua",
         "name": "ミーファ",
-        "image": "ryohaoc_image/03mihua/230216_3.png",
-        "link": "character_page/mihua.html"
+        "image": "img/03mihua/230216_3.png",
+        "link": "char/mihua/index.html"
     },
     {
         "number": "04",
         "id": "kurokiuruu",
         "name": "うるう",
-        "image": "ryohaoc_image/04kurokiuruu/221216_2.png",
-        "link": "character_page/kurokiuruu.html"
+        "image": "img/04kurokiuruu/221216_2.png",
+        "link": "char/kurokiuruu/index.html"
     },
     {
         "number": "05",
         "id": "enazigglime",
         "name": "エナ",
-        "image": "ryohaoc_image/05enazigglime/240514_2.png",
-        "link": "character_page/enazigglime.html"
+        "image": "img/05enazigglime/240514_2.png",
+        "link": "char/enazigglime/index.html"
     },
     {
         "number": "06",
         "id": "mumyamirahearty",
         "name": "ムーミャ",
-        "image": "ryohaoc_image/06mumyamirahearty/241027_2_3.png",
-        "link": "character_page/mumyamirahearty.html"
+        "image": "img/06mumyamirahearty/241027_2_3.png",
+        "link": "char/mumyamirahearty/index.html"
     },
     {
         "number": "07",
         "id": "ogawaratekko",
         "name": "てっこ",
-        "image": "ryohaoc_image/07ogawaratekko/240110_3.png",
-        "link": "character_page/ogawaratekko.html"
+        "image": "img/07ogawaratekko/240110_3.png",
+        "link": "char/ogawaratekko/index.html"
     },
     {
         "number": "08",
         "id": "milphine",
         "name": "ミルフィ",
-        "image": "ryohaoc_image/08milphine/240110_2.png",
-        "link": "character_page/milphine.html"
+        "image": "img/08milphine/240110_2.png",
+        "link": "char/milphine/index.html"
     },
     {
         "number": "09",
         "id": "xiaoyue",
         "name": "シャオ",
-        "image": "ryohaoc_image/09xiaoyue/240110_3.png",
-        "link": "character_page/xiaoyue.html"
+        "image": "img/09xiaoyue/240110_3.png",
+        "link": "char/xiaoyue/index.html"
     },
     {
         "number": "10",
         "id": "kokonococoa",
         "name": "ここあ",
-        "image": "ryohaoc_image/10kokonococoa/240216_2_2.png",
-        "link": "character_page/kokonococoa.html"
+        "image": "img/10kokonococoa/240216_2_2.png",
+        "link": "char/kokonococoa/index.html"
     },
     {
         "number": "11",
         "id": "mochidukiayame",
         "name": "あやめ",
-        "image": "ryohaoc_image/11mochidukiayame/240830-4_2.png",
-        "link": "character_page/mochidukiayame.html"
+        "image": "img/11mochidukiayame/240830-4_2.png",
+        "link": "char/mochidukiayame/index.html"
     },
     {
         "number": "12",
         "id": "nav",
         "name": "ナヴ",
-        "image": "ryohaoc_image/12nav/221126_2.png",
-        "link": "character_page/nav.html"
+        "image": "img/12nav/221126_2.png",
+        "link": "char/nav/index.html"
     },
     {
         "number": "13",
         "id": "yuancai",
         "name": "えんさい",
-        "image": "ryohaoc_image/13yuancai/240830-5_2.png",
-        "link": "character_page/yuancai.html"
+        "image": "img/13yuancai/240830-5_2.png",
+        "link": "char/yuancai/index.html"
     },
     {
         "number": "14",
         "id": "sakurabaakane",
         "name": "あかね",
-        "image": "ryohaoc_image/14sakurabaakane/231026_2.png",
-        "link": "character_page/sakurabaakane.html"
+        "image": "img/14sakurabaakane/231026_2.png",
+        "link": "char/sakurabaakane/index.html"
     },
     {
         "number": "15",
         "id": "yorodurakonaha",
         "name": "こなは",
-        "image": "ryohaoc_image/15yorodurakonaha/240830-7_2.png",
-        "link": "character_page/yorodurakonaha.html"
+        "image": "img/15yorodurakonaha/240830-7_2.png",
+        "link": "char/yorodurakonaha/index.html"
     },
     {
         "number": "16",
         "id": "irisiatrichroma",
         "name": "アイリス",
-        "image": "ryohaoc_image/16irisiatrichroma/251026_2.png",
-        "link": "character_page/irisiatrichroma.html"
+        "image": "img/16irisiatrichroma/251026_2.png",
+        "link": "char/irisiatrichroma/index.html"
     },
     {
         "number": "17",
         "id": "linnelgravelier",
         "name": "リンネル",
-        "image": "ryohaoc_image/17linnelgravelier/260219_2.png",
-        "link": "character_page/linnelgravelier.html"
+        "image": "img/17linnelgravelier/260219_2.png",
+        "link": "char/linnelgravelier/index.html"
     },
     {
         "number": "18",
         "id": "yoimorimukuro",
         "name": "むくろ",
-        "image": "ryohaoc_image/18yoimorimukuro/240830-3_2.png",
-        "link": "character_page/yoimorimukuro.html"
+        "image": "img/18yoimorimukuro/240830-3_2.png",
+        "link": "char/yoimorimukuro/index.html"
     },
     {
         "number": "19",
         "id": "amarurukomugi",
         "name": "こむぎ",
-        "image": "ryohaoc_image/19amarurukomugi/240830-8_2.png",
-        "link": "character_page/amarurukomugi.html"
+        "image": "img/19amarurukomugi/240830-8_2.png",
+        "link": "char/amarurukomugi/index.html"
     },
     {
         "number": "20",
         "id": "mariellarosaverita",
         "name": "マリー",
-        "image": "ryohaoc_image/20mariellarosaverita/240830-9_2.png",
-        "link": "character_page/mariellarosaverita.html"
+        "image": "img/20mariellarosaverita/240830-9_2.png",
+        "link": "char/mariellarosaverita/index.html"
     },
     {
         "number": "21",
         "id": "mingming",
         "name": "ミンミン",
-        "image": "ryohaoc_image/21mingming/250913_2.png",
-        "link": "character_page/mingming.html"
+        "image": "img/21mingming/250913_2.png",
+        "link": "char/mingming/index.html"
     },
     {
         "number": "22",
         "id": "tsumiganepiu",
         "name": "ぴう",
-        "image": "ryohaoc_image/22tsumiganepiu/250914_2.png",
-        "link": "character_page/tsumiganepiu.html"
+        "image": "img/22tsumiganepiu/250914_2.png",
+        "link": "char/tsumiganepiu/index.html"
     },
     {
         "number": "23",
         "id": "laylanerfel",
         "name": "レイラ",
-        "image": "ryohaoc_image/23laylanerfel/251015_2.png",
-        "link": "character_page/laylanerfel.html"
+        "image": "img/23laylanerfel/251015_2.png",
+        "link": "char/laylanerfel/index.html"
     },
     {
         "number": "24",
         "id": "monekobayashi",
         "name": "モネ",
-        "image": "ryohaoc_image/24monekobayashi/251107_2.png",
-        "link": "character_page/monekobayashi.html"
+        "image": "img/24monekobayashi/251107_2.png",
+        "link": "char/monekobayashi/index.html"
     },
     {
         "number": "25",
         "id": "asagiyomogi",
         "name": "よもぎ",
-        "image": "ryohaoc_image/25asagiyomogi/251110_2.png",
-        "link": "character_page/asagiyomogi.html"
+        "image": "img/25asagiyomogi/251110_2.png",
+        "link": "char/asagiyomogi/index.html"
     },
     {
         "number": "26",
         "id": "lattiecaffna",
         "name": "ラティ",
-        "image": "ryohaoc_image/26lattiecaffna/251117_2.png",
-        "link": "character_page/lattiecaffna.html"
+        "image": "img/26lattiecaffna/251117_2.png",
+        "link": "char/lattiecaffna/index.html"
     },
     {
         "number": "27",
         "id": "susuigumiko",
         "name": "ぐみこ",
-        "image": "ryohaoc_image/27susuigumiko/260128_2.png",
-        "link": "character_page/susuigumiko.html"
+        "image": "img/27susuigumiko/260128_2.png",
+        "link": "char/susuigumiko/index.html"
     },
     {
         "number": "28",
         "id": "tatedukamisaki",
         "name": "みさき",
-        "image": "ryohaoc_image/28tatedukamisaki/260302_2.png",
-        "link": "character_page/tatedukamisaki.html"
+        "image": "img/28tatedukamisaki/260302_2.png",
+        "link": "char/tatedukamisaki/index.html"
     },
     {
         "number": "29",
         "id": "odatouka",
         "name": "とうか",
-        "image": "ryohaoc_image/29odatouka/250523_2.png",
-        "link": "character_page/odatouka.html"
+        "image": "img/29odatouka/250523_2.png",
+        "link": "char/odatouka/index.html"
     },
     {
         "number": "30",
         "id": "liliavalentia",
         "name": "リリア",
-        "image": "ryohaoc_image/30liliavalentia/260710_2.png",
-        "link": "character_page/liliavalentia.html"
+        "image": "img/30liliavalentia/260710_2.png",
+        "link": "char/liliavalentia/index.html"
     }
 ]
