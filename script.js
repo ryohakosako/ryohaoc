@@ -1,5 +1,5 @@
 const isCharPage = location.pathname.includes("/char/");
-const basePath = isCharPage ? "" : "";
+const basePath = isCharPage ? "../../" : "";
 
 //キャラ一覧
 const grid = document.getElementById("grid");
