@@ -208,5 +208,19 @@
         "name": "リリア",
         "image": "img/30liliavalentia/260710_2.png",
         "link": "char/liliavalentia"
+    },
+    {
+        "number": "31",
+        "id": "liliavalentia",
+        "name": "とあと",
+        "image": "img/31komakomatoato/260831_2.png",
+        "link": "char/komakomatoato"
+    },
+    {
+        "number": "32",
+        "id": "liliavalentia",
+        "name": "シャトーレ",
+        "image": "img/32chatoreblanchedeflegatole/260915_2.png",
+        "link": "char/chatoreblanchedeflegatole"
     }
 ]
